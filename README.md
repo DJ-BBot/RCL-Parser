@@ -39,4 +39,15 @@ Future state will include:
 - [ ] C++
 - [ ] Go
 - [ ] Rust
-- [ ] Kotlin
+
+## Intent of RCL
+
+RCL will have two major components supporting multiple target languages.
+
+First, the RCL-Parser will be brought in as an importable developer package.
+This will provide developers with the tools they need to parse RCL configuration
+files.
+
+Second, the RCL-Parser will be utilized in a translator that will allow
+developers to quickly generate generic types/enums that can be utilized in
+product development.
